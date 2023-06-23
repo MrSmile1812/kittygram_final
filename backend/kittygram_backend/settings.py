@@ -12,7 +12,7 @@ SECRET_KEY = 'django-insecure-cg6*%6d51ef8f#4!r3*$vmxm4)abgjw8mo!4y-q*uq1!4$-89$
 
 DEBUG = os.getenv('DEBUG')
 
-ALLOWED_HOSTS = ['mykittygram.ddnsking.com', '84.201.177.135', 'backend', 'localhost']
+ALLOWED_HOSTS = ['mykittygram.ddnsking.com','localhost', '84.201.177.135', 'backend']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -57,7 +57,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'kittygram_backend.wsgi.application'
 
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
@@ -68,7 +67,6 @@ DATABASES = {
         'PORT': os.getenv('DB_PORT', 5432)
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
