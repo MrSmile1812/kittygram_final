@@ -28,6 +28,5 @@ docker compose exec backend cp -r /app/collected_static/. /static/static/
 ``` 
 - По адресу http://127.0.0.1:9000/ сайт будет доступен.
 
-
 ### Автор
 George Prokofev (MrSmile1812)
