@@ -1,17 +1,17 @@
 # Социальная сеть любителей котов Kittygram
 ### URL
-Проект развернут на сайте: https://catgram.ddns.net/
+Проект развернут на сайте: https://mykittygram.ddnsking.com/
 
 ## Описание
 Интерактивный сайт с личным кабинетом с возможностями публикации фотографий котов, а также присваивания достижений.
 
 ## Технологии
-Python 3.11.1, Django 3.2, Django REST framework, React
+Python 3.10, Django 3.2, Django REST framework, React
 
 ## Запуск проекта в dev-режиме
 - Клонируйте репозиторий и перейдите в него в командной строке:
 ``` 
-git clone https://github.com/kovdmit/kittygram_final.git 
+git clone https://github.com/MrSmile1812/kittygram_final
 cd kittygram_final
 ```
 - Запустите проект с помощью команды:
